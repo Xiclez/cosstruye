@@ -361,6 +361,12 @@ section {
     transition: 0.3s;
   }
 
+  .logo-img {
+    max-width: none; /* Ensures the image is not constrained */
+    height: auto; /* Adjusts the height proportionally */
+  }
+  
+
   .navbar .dropdown ul li {
     min-width: 200px;
   }
@@ -710,6 +716,14 @@ section {
   padding: 40px;
   background: #fff;
   height: 100%;
+}
+/* Custom styles for service items */
+.service-title {
+  font-size: calc(1em + 10pt); /* Adjust the font size by 2 points */
+}
+
+.service-description {
+  font-size: calc(1em + 10pt); /* Adjust the font size by 2 points */
 }
 
 .services .service-item .icon {
